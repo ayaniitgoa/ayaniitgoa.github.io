@@ -18,14 +18,28 @@ body {
 .card1 {
   transform: perspective(1000px) rotateY(15deg);
   margin-left: 3vw;
+  transition: all 0.2s ease-in-out;
+}
+
+.card1:hover {
+  transform: rotateY(0deg);
 }
 
 .card2 {
   transform: perspective(1000px) rotateY(-15deg);
   margin-right: 3vw;
+  transition: all 0.2s ease-in-out;
+}
+.card2:hover {
+  transform: rotateY(0deg);
 }
 
 .project {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.about-desc {
   margin-top: 15px;
   font-size: 14px;
 }
@@ -69,6 +83,7 @@ a {
 .card-title {
   text-align: center;
   font-size: 32px;
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 1260px) {
@@ -84,6 +99,10 @@ a {
     top: 0rem;
     padding: 0 5px;
     margin: 10px;
+  }
+  a {
+    text-decoration: none;
+    color: blue;
   }
 }
 
@@ -114,7 +133,8 @@ a {
   }
 
   a {
-    color: aqua;
+    text-decoration: none;
+    color: blue;
   }
 
   .card1 {
