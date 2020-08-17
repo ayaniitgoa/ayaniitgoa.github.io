@@ -9,16 +9,18 @@ body {
 }
 .inner-cards {
   background: white;
-  width: 20rem;
+  width: 30vw;
   height: 80vh;
 }
 
 .card1 {
   transform: perspective(1000px) rotateY(15deg);
+  margin-left: 3vw;
 }
 
 .card2 {
   transform: perspective(1000px) rotateY(-15deg);
+  margin-right: 3vw;
 }
 
 .cards {
@@ -26,10 +28,11 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0 3vw;
+  margin-top: 10vh;
 }
 
 .profile-photo {
-  width: 15rem;
+  width: 17rem;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -37,13 +40,82 @@ body {
 
 .middle {
   position: relative;
-  top: 2rem;
-  padding: 10px 30px;
+  top: 32px;
+  padding: 10px 20px;
   border: 2px solid white;
   height: 100%;
+  color: white;
 }
 
 .name {
-  font-size: 1.5rem;
+  font-size: 32px;
   text-align: center;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+.links {
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 1260px) {
+  .card1 {
+    transform: rotateY(0deg);
+  }
+
+  .card2 {
+    transform: rotateY(0deg);
+  }
+  .middle {
+    position: relative;
+    top: 0rem;
+    padding: 0 5px;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 1224px) {
+  .card1 {
+    order: 2;
+    margin-right: 30px;
+  }
+  .card2 {
+    order: 3;
+  }
+
+  .middle {
+    position: relative;
+    top: -12px;
+    order: 1;
+  }
+}
+@media only screen and (max-width: 1224px) {
+  .cards {
+    flex-direction: column;
+  }
+
+  .middle {
+    width: fit-content;
+    margin: auto;
+    border: none;
+  }
+
+  a {
+    color: aqua;
+  }
+
+  .card1 {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    margin-bottom: 5vh;
+  }
+  .card2 {
+    width: 100%;
+    margin-right: 0;
+    height: 100%;
+    margin-bottom: 5vh;
+  }
 }
