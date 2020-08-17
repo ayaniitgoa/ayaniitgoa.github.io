@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+}
+.inner-cards {
+  background: white;
+  width: 40rem;
+  height: 80vh;
+}
+
+.card1 {
+  transform: perspective(800px) rotateY(15deg);
+}
+
+.card2 {
+  transform: perspective(800px) rotateY(-15deg);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 3vw;
+}
+
+.profile-photo {
+  width: 15rem;
+}
+
+.middle {
+  position: relative;
+  top: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.name {
+  font-size: 1.5rem;
+}
