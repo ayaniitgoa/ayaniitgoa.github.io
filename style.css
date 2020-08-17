@@ -9,16 +9,16 @@ body {
 }
 .inner-cards {
   background: white;
-  width: 40rem;
+  width: 36rem;
   height: 80vh;
 }
 
 .card1 {
-  transform: perspective(800px) rotateY(15deg);
+  transform: perspective(1000px) rotateY(15deg);
 }
 
 .card2 {
-  transform: perspective(800px) rotateY(-15deg);
+  transform: perspective(1000px) rotateY(-15deg);
 }
 
 .cards {
@@ -30,16 +30,20 @@ body {
 
 .profile-photo {
   width: 15rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .middle {
   position: relative;
   top: 2rem;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  padding: 10px 30px;
+  border: 2px solid white;
+  height: 100%;
 }
 
 .name {
   font-size: 1.5rem;
+  text-align: center;
 }
