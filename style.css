@@ -97,7 +97,21 @@ a {
   font-size: 32px;
   text-decoration: underline;
 }
-
+.tags-title {
+  margin-top: 1vh;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1vh;
+}
+.tag {
+  background: #6495ed;
+  margin-left: 10px;
+  padding: 5px 15px;
+  border-radius: 20px;
+  margin-bottom: 1vh;
+}
 @media only screen and (max-width: 1260px) {
   .card1 {
     transform: rotateY(0deg);
