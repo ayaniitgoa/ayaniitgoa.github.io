@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 * {
   margin: 0;
   padding: 0%;
@@ -65,11 +66,13 @@ body {
   border: 2px solid white;
   height: 100%;
   color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .name {
-  font-size: 32px;
+  font-size: 26px;
   text-align: center;
+  margin-top: 10px;
 }
 a {
   text-decoration: none;
@@ -86,6 +89,10 @@ a {
 .social {
   margin-left: 10px;
   color: #6495ed;
+}
+
+.entire-social {
+  margin-top: 10px;
 }
 
 .links {
@@ -117,6 +124,7 @@ a {
   border: white 1px solid;
   padding: 5px 10px;
   margin-top: 2vh;
+  margin-bottom: 10px;
   width: fit-content;
   position: relative;
   left: 50%;
