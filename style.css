@@ -7,6 +7,7 @@
 
 body {
   background: black;
+  font-family: 'Montserrat', sans-serif;
 }
 .inner-cards {
   background: white;
@@ -50,6 +51,10 @@ body {
   justify-content: space-between;
   padding: 0 3vw;
   margin-top: 10vh;
+}
+
+.card-project-title {
+  font-weight: bold;
 }
 
 .profile-photo {
@@ -103,9 +108,11 @@ a {
   text-align: center;
   font-size: 32px;
   text-decoration: underline;
+  margin-top: 10px;
 }
 .tags-title {
   margin-top: 1vh;
+  font-weight: bold;
 }
 .tags {
   display: flex;
