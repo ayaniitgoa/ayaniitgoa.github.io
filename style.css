@@ -133,15 +133,20 @@ a {
   margin-top: 2vh;
   margin-bottom: 10px;
   width: fit-content;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+
   transition: all 0.2s ease-in-out;
 }
 
 .resume p {
   color: white;
   transition: all 0.2s ease-in-out;
+}
+
+.resume-link {
+  width: fit-content;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .resume:hover {
