@@ -85,6 +85,10 @@ a {
   color: #0047ab;
 }
 
+.date {
+  float: right;
+}
+
 .skills-title {
   margin-top: 3vh;
 }
