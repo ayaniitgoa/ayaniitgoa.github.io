@@ -53,7 +53,7 @@ body {
 }
 
 .profile-photo {
-  width: 17rem;
+  width: 250px;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
