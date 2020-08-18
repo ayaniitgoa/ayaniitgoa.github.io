@@ -79,6 +79,13 @@ body {
   text-align: center;
   margin-top: 10px;
 }
+
+.college-name {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
 a {
   text-decoration: none;
   text-decoration: none;
@@ -159,7 +166,7 @@ a {
 .resume:hover p {
   color: black;
 }
-@media only screen and (max-width: 1260px) {
+@media only screen and (max-width: 1426px) {
   .card1 {
     transform: rotateY(0deg);
   }
@@ -178,8 +185,8 @@ a {
     color: blue;
   }
 }
-
-@media only screen and (max-width: 1224px) {
+/* 
+@media only screen and (max-width: 1390px) {
   .card1 {
     order: 2;
     margin-right: 30px;
@@ -193,8 +200,8 @@ a {
     top: -12px;
     order: 1;
   }
-}
-@media only screen and (max-width: 1224px) {
+} */
+@media only screen and (max-width: 1390px) {
   .cards {
     flex-direction: column;
   }
@@ -203,6 +210,7 @@ a {
     width: fit-content;
     margin: auto;
     border: none;
+    order: 1;
   }
 
   a {
@@ -215,11 +223,13 @@ a {
     margin: auto;
     height: 100%;
     margin-bottom: 5vh;
+    order: 2;
   }
   .card2 {
     width: 100%;
     margin-right: 0;
     height: 100%;
     margin-bottom: 5vh;
+    order: 3;
   }
 }
