@@ -73,7 +73,15 @@ body {
 }
 a {
   text-decoration: none;
-  color: blue;
+  color: #0047ab;
+}
+
+.social-icons {
+  color: white;
+}
+.social {
+  margin-left: 10px;
+  color: #6495ed;
 }
 
 .links {
