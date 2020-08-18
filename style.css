@@ -112,6 +112,29 @@ a {
   border-radius: 20px;
   margin-bottom: 1vh;
 }
+
+.resume {
+  border: white 1px solid;
+  padding: 5px 10px;
+  margin-top: 2vh;
+  width: fit-content;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.2s ease-in-out;
+}
+
+.resume p {
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.resume:hover {
+  background: white;
+}
+.resume:hover p {
+  color: black;
+}
 @media only screen and (max-width: 1260px) {
   .card1 {
     transform: rotateY(0deg);
