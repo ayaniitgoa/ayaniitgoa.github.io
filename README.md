@@ -1,5 +1,5 @@
 ## My Portfolio Website 🙂
 
-### To visit click [here](https://ayaniitgoa.github.io)!
+### You can visit my portfolio website from [here](https://ayaniitgoa.github.io)!
 
 #### Licensed under [MIT License](LICENSE).
